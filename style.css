@@ -1,0 +1,21 @@
+
+.filler{ 
+  justify-content: center;
+  background-color: black;
+}
+
+.filler>h2 {
+  padding: 10%;
+  text-align: center;
+  color:yellow;
+  text-shadow: 1px 4px 7px #000;
+
+  background-image: url("http://i.imgur.com/KrHPIsD.gif");
+  /* Set a specific height */
+  height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
