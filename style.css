@@ -1,5 +1,35 @@
-.border-test {
-    border:solid 2px black;
-    padding:10px;
-    align-self: center;
+.name-info {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightblue;
+  text-shadow: 1px -2px 28px lightcyan;
+}
+
+.name-info>h1 {
+  font-size: 26px;
+}
+
+
+.bg-black {
+  background-color: black;
+}
+
+.filler{ 
+  justify-content: center;
+  background-color: black;
+}
+
+.filler>h1,h2 {
+  padding: 25% 0px;
+  text-align: center;
+  color:yellow;
+  text-shadow: 1px 4px 7px #000;
+
+  background-image: url("http://i.imgur.com/KrHPIsD.gif");
+  /* Set a specific height */
+  height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
